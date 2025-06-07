@@ -1,7 +1,8 @@
 // Import the functions you need from the SDKs you need
 
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
-import {app} from './firebase-config'
+import { app } from './firebase-config'
+export { initFirebaseConfig } from './firebase-config'
 
 const auth = getAuth(app);
 
